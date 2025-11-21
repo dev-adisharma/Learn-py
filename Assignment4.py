@@ -125,17 +125,17 @@
 # Explanation:
 # Shows dictionary creation, update, deletion, and finding highest marks using max() with key.
 
-def reverse_number(num):
-    reverse = 0
-    while num > 0:
-        digit = num % 10
-        reverse = reverse * 10 + digit
-        num //= 10
-    return reverse
+# def reverse_number(num):
+#     reverse = 0
+#     while num > 0:
+#         digit = num % 10
+#         reverse = reverse * 10 + digit
+#         num //= 10
+#     return reverse
 
-# Example
-n = int(input("Enter a number: "))
-print("Reversed number:", reverse_number(n))
+# # Example
+# n = int(input("Enter a number: "))
+# print("Reversed number:", reverse_number(n))
 
 # Explanation:
 # Extracts digits and rebuilds number in reverse order.

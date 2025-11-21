@@ -135,13 +135,13 @@
 #         continue
 
 #     print(i)
-def convert_temperature(temp):
-    celsius = (temp - 32) * 5/9
-    return celsius
+# def convert_temperature(temp):
+#     celsius = (temp - 32) * 5/9
+#     return celsius
 
-# Example
-f = float(input("Enter temperature in Fahrenheit: "))
-print("Temperature in Celsius:", convert_temperature(f))
+# # Example
+# f = float(input("Enter temperature in Fahrenheit: "))
+# print("Temperature in Celsius:", convert_temperature(f))
 
 # Explanation:
 # Applies the formula (F - 32) x 5/9 to convert Fahrenheit to Celsius.
